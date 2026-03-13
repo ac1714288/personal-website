@@ -25,8 +25,10 @@ export default function Blog() {
   return (
     <section id="blog" className="blog">
       <div className="section-inner">
-        <h2 className="section-title">Blog</h2>
-        <p className="section-subtitle">Thoughts, reflections, and research notes</p>
+        <div className="section-header">
+          <p className="section-eyebrow">Writing</p>
+          <h2 className="section-title">Blog</h2>
+        </div>
         <div className="blog-grid">
           {posts.map((post, i) => (
             <article className="blog-card" key={i}>

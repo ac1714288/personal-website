@@ -1,12 +1,13 @@
 .resume {
-  padding: 5rem 3rem;
+  padding: 6rem 3rem;
+  background: #f8f8f8;
 }
 
 .resume-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -16,31 +17,34 @@
 }
 
 .resume-block-title {
-  font-size: 0.72rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.68rem;
   font-weight: normal;
-  color: #aaa;
+  color: #bbb;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   margin: 0 0 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
 }
 
 .resume-item {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 160px 1fr;
   gap: 2rem;
   margin-bottom: 1.75rem;
 }
 
 .resume-year {
-  font-size: 0.8rem;
-  color: #aaa;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: #bbb;
   padding-top: 0.15rem;
 }
 
 .resume-role {
   font-size: 0.95rem;
+  font-weight: 500;
   color: #111;
   margin: 0 0 0.2rem;
 }
@@ -54,9 +58,10 @@
 
 .resume-desc {
   font-size: 0.85rem;
-  color: #555;
+  color: #666;
   margin: 0;
   line-height: 1.7;
+  font-weight: 300;
 }
 
 @media (max-width: 600px) {

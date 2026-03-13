@@ -34,8 +34,8 @@ export default function Resume() {
       <div className="section-inner">
         <div className="resume-header">
           <div>
+            <p className="section-eyebrow">Background</p>
             <h2 className="section-title">Resume</h2>
-            <p className="section-subtitle">Education & experience</p>
           </div>
           <a href="/resume.pdf" className="btn-primary" target="_blank" rel="noreferrer">
             Download CV

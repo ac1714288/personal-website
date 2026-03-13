@@ -1,5 +1,10 @@
 .interests {
-  padding: 5rem 3rem;
+  padding: 6rem 3rem;
+  background: #f8f8f8;
+}
+
+.interests .section-title {
+  margin-bottom: 3.5rem;
 }
 
 .interests-grid {
@@ -9,22 +14,24 @@
 }
 
 .interest-item {
-  border-top: 1px solid #D5D5D8;
+  border-top: 1px solid #e0e0e0;
   padding-top: 1.25rem;
 }
 
 .interest-label {
   font-size: 0.95rem;
+  font-weight: 500;
   color: #111;
   margin: 0 0 0.5rem;
   letter-spacing: 0.01em;
 }
 
 .interest-desc {
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 0.875rem;
+  color: #777;
   line-height: 1.75;
   margin: 0;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {

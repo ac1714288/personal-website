@@ -31,8 +31,10 @@ export default function Publications() {
   return (
     <section id="publications" className="publications">
       <div className="section-inner">
-        <h2 className="section-title">Publications</h2>
-        <p className="section-subtitle">Peer-reviewed research and conference papers</p>
+        <div className="pub-header">
+          <p className="section-eyebrow">Research</p>
+          <h2 className="section-title">Publications</h2>
+        </div>
         <div className="pub-list">
           {publications.map((pub, i) => (
             <div className="pub-item" key={i}>

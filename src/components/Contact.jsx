@@ -4,8 +4,10 @@ export default function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="section-inner contact-inner">
-        <h2 className="section-title">Contact</h2>
-        <p className="section-subtitle">I'd love to hear from you</p>
+        <div className="section-header">
+          <p className="section-eyebrow">Get in Touch</p>
+          <h2 className="section-title">Contact</h2>
+        </div>
         <div className="contact-grid">
           <div className="contact-info">
             <p className="contact-text">

@@ -31,6 +31,7 @@ export default function Interests() {
   return (
     <section id="interests" className="interests">
       <div className="section-inner">
+        <p className="section-eyebrow">Beyond the Lab</p>
         <h2 className="section-title">Interests</h2>
         <div className="interests-grid">
           {interests.map((item, i) => (
