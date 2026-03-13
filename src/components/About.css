@@ -1,0 +1,145 @@
+.about {
+  padding: 7rem 3rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-greeting {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  margin: 0 0 1rem;
+}
+
+.about-name {
+  font-size: 2.8rem;
+  font-weight: normal;
+  color: #111;
+  margin: 0 0 0.4rem;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.about-title {
+  font-size: 1rem;
+  color: #888;
+  margin: 0 0 1.75rem;
+  font-style: italic;
+}
+
+.about-bio {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  margin: 0 0 2.5rem;
+  max-width: 480px;
+}
+
+.about-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #111;
+  color: #fff;
+  padding: 0.55rem 1.25rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: opacity 0.15s;
+}
+
+.btn-primary:hover {
+  opacity: 0.75;
+}
+
+.btn-secondary {
+  border: 1px solid #ccc;
+  color: #444;
+  padding: 0.55rem 1.25rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.btn-secondary:hover {
+  border-color: #111;
+  color: #111;
+}
+
+.about-socials {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.about-socials a {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  transition: color 0.15s;
+}
+
+.about-socials a:hover {
+  color: #111;
+}
+
+.about-photo {
+  flex-shrink: 0;
+}
+
+.photo-placeholder {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #E5E5E8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #888;
+  border: 1px solid #D5D5D8;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-content {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+  }
+
+  .about-name {
+    font-size: 2rem;
+  }
+
+  .photo-placeholder {
+    width: 110px;
+    height: 110px;
+  }
+}

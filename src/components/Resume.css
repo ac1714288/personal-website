@@ -1,0 +1,71 @@
+.resume {
+  padding: 5rem 3rem;
+}
+
+.resume-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resume-block {
+  margin-bottom: 3rem;
+}
+
+.resume-block-title {
+  font-size: 0.72rem;
+  font-weight: normal;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.resume-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.resume-year {
+  font-size: 0.8rem;
+  color: #aaa;
+  padding-top: 0.15rem;
+}
+
+.resume-role {
+  font-size: 0.95rem;
+  color: #111;
+  margin: 0 0 0.2rem;
+}
+
+.resume-org {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0 0 0.3rem;
+  font-style: italic;
+}
+
+.resume-desc {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .resume {
+    padding: 4rem 1.5rem;
+  }
+
+  .resume-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
