@@ -4,6 +4,7 @@ import Publications from './components/Publications'
 import Resume from './components/Resume'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
+import Interests from './components/Interests'
 import Footer from './components/Footer'
 
 function Divider() {
@@ -16,6 +17,8 @@ function App() {
       <Navbar />
       <main>
         <About />
+        <Divider />
+        <Interests />
         <Divider />
         <Publications />
         <Divider />

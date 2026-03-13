@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const links = ['About', 'Publications', 'Resume', 'Blog', 'Contact']
+  const links = ['About', 'Interests', 'Publications', 'Resume', 'Blog', 'Contact']
 
   return (
     <nav className="navbar">
