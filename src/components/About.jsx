@@ -24,7 +24,7 @@ export default function About() {
         </div>
       </div>
       <div className="hero-right">
-        <img src="/profile.jpg" alt="Adeniran Coker" className="hero-photo" />
+        <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Adeniran Coker" className="hero-photo" />
       </div>
     </section>
   )
