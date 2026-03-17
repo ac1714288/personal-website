@@ -17,17 +17,17 @@ export default function Contact() {
             <div className="contact-items">
               <div className="contact-item">
                 <span className="contact-label">Email</span>
-                <a href="mailto:your@email.com">your@email.com</a>
+                <a href="mailto:your@email.com">ac171@illiois.edu</a>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Office</span>
-                <span>Your Building, Room 000<br />University of Illinois Urbana-Champaign</span>
+                <span>1611 Titan Drive, Rantoul, IL 61866<br />Illinois Center for Transportation</span>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Social</span>
                 <div className="contact-socials">
                   <a href="https://github.com/ac1714288" target="_blank" rel="noreferrer">GitHub</a>
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <a href="https://linkedin.com/in/adeniran-coker" target="_blank" rel="noreferrer">LinkedIn</a>
                   <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
                 </div>
               </div>
