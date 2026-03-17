@@ -2,14 +2,19 @@ import './Resume.css'
 
 const education = [
   {
-    degree: 'Ph.D. in [Your Field]',
+    degree: 'Ph.D. in Civil Engineering',
     school: 'University of Illinois Urbana-Champaign',
-    year: '2022 – Present',
+    year: '2025 – Present',
+  },
+    {
+    degree: 'M.Sc. in Civil Engineering',
+    school: 'University of New Hampshire',
+    year: '2023 – 2025',
   },
   {
-    degree: 'B.Sc. in [Your Field]',
-    school: 'Your Undergraduate Institution',
-    year: '2018 – 2022',
+    degree: 'B.Sc. in Civil Engineering',
+    school: 'Federal University of Agricultural, Abeokuta',
+    year: '2014 – 2019',
   },
 ]
 
@@ -17,14 +22,14 @@ const experience = [
   {
     role: 'Graduate Research Assistant',
     org: 'University of Illinois Urbana-Champaign',
-    year: '2022 – Present',
+    year: '2025 – Present',
     desc: 'Brief description of your research work and contributions.',
   },
   {
-    role: 'Research Intern',
-    org: 'Organization Name',
-    year: 'Summer 2021',
-    desc: 'Brief description of internship work.',
+    role: 'Graduate Assistant',
+    org: 'University of New Hampshire',
+    year: '2023 – 2025',
+    desc: 'Evalauted the low temperature performance of sustainable pavement materials.',
   },
 ]
 
