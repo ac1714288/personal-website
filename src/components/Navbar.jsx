@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'About', to: '/about' },
   { label: 'Research', to: '/research' },
   { label: 'Blog', to: '/blog' },
+  { label: 'Community', to: '/community' },
 ]
 
 function scrollToContact(e) {
