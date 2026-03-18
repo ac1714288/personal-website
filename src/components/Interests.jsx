@@ -7,7 +7,7 @@ const interests = [
   },
   {
     label: 'Nature',
-    description: 'Finding clarity outdoors — whether hiking, watching the sky, or simply being somewhere quiet and green.',
+    description: 'Finding clarity outdoors whether hiking, watching the sky, or simply being somewhere quiet and green.',
   },
   {
     label: 'Road Trips',
@@ -19,7 +19,7 @@ const interests = [
   },
   {
     label: 'Arts',
-    description: 'Appreciating how art — visual, musical, literary — captures what language alone cannot.',
+    description: 'Appreciating how art visual, musical, literary captures what language alone cannot.',
   },
   {
     label: 'Food',

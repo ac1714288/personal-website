@@ -2,10 +2,10 @@ import './Blog.css'
 
 const posts = [
   {
-    title: 'Your First Blog Post Title',
-    date: 'March 1, 2026',
-    summary: 'A brief introduction to what this post covers. Share your thoughts, research insights, or experiences here.',
-    tag: 'Research',
+    title: 'You don’t need to fit the part',
+    date: 'February 26, 2026',
+    summary: 'In this post, I reflect on the life of Claude Shannon and what it teaches us about intellectual depth and playfulness.',
+    tag: 'Thoughts',
   },
   {
     title: 'Reflections on [Topic]',
