@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Blog.css'
 
 const posts = [
@@ -37,7 +38,7 @@ export default function Blog() {
               <p className="blog-summary">{post.summary}</p>
               <div className="blog-footer">
                 <span className="blog-date">{post.date}</span>
-                <a href="#" className="blog-read-more">Read more →</a>
+                <Link to="/blog" className="blog-read-more">Read more →</Link>
               </div>
             </article>
           ))}
