@@ -1,0 +1,34 @@
+import { useEffect, useRef } from 'react'
+import createGlobe from 'cobe'
+import './Globe.css'
+
+export default function Globe() {
+  const canvasRef = useRef(null)
+
+  useEffect(() => {
+    let phi = 0
+    const globe = createGlobe(canvasRef.current, {
+      devicePixelRatio: Math.min(window.devicePixelRatio, 2),
+      width: 340 * Math.min(window.devicePixelRatio, 2),
+      height: 340 * Math.min(window.devicePixelRatio, 2),
+      phi: 0,
+      theta: 0.2,
+      dark: 1,
+      diffuse: 1.5,
+      mapSamples: 20000,
+      mapBrightness: 8,
+      baseColor: [0.1, 0.2, 0.5],
+      markerColor: [1, 1, 1],
+      glowColor: [0.2, 0.4, 1],
+      markers: [],
+      onRender(state) {
+        state.phi = phi
+        phi += 0.004
+      },
+    })
+
+    return () => globe.destroy()
+  }, [])
+
+  return <canvas ref={canvasRef} className="globe-canvas" />
+}

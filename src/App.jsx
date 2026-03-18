@@ -1,23 +1,24 @@
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import About from './components/About'
-import Publications from './components/Publications'
-import Resume from './components/Resume'
-import Blog from './components/Blog'
-import Contact from './components/Contact'
-import Interests from './components/Interests'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import AboutPage from './pages/AboutPage'
+import ResearchPage from './pages/ResearchPage'
+import BlogPage from './pages/BlogPage'
+import BlogPostPage from './pages/BlogPostPage'
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <About />
-        <Interests />
-        <Publications />
-        <Resume />
-        <Blog />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/research" element={<ResearchPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+        </Routes>
       </main>
       <Footer />
     </>

@@ -1,25 +1,40 @@
 import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
+
+const navLinks = [
+  { label: 'About', to: '/about' },
+  { label: 'Research', to: '/research' },
+  { label: 'Blog', to: '/blog' },
+]
+
+function scrollToContact(e) {
+  e.preventDefault()
+  const el = document.getElementById('contact')
+  if (el) el.scrollIntoView({ behavior: 'smooth' })
+}
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const { pathname } = useLocation()
 
-  const links = ['About', 'Interests', 'Publications', 'Resume', 'Blog', 'Contact']
+  const close = () => setMenuOpen(false)
 
   return (
     <nav className="navbar">
-      <a href="#about" className="nav-logo">Adeniran Coker</a>
+      <Link to="/" className="nav-logo" onClick={close}>Adeniran Coker</Link>
       <button className="nav-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
         <span /><span /><span />
       </button>
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        {links.map(link => (
-          <li key={link}>
-            <a href={`#${link.toLowerCase()}`} onClick={() => setMenuOpen(false)}>
-              {link}
-            </a>
+        {navLinks.map(({ label, to }) => (
+          <li key={to}>
+            <Link to={to} onClick={close} className={pathname === to ? 'active' : ''}>{label}</Link>
           </li>
         ))}
+        <li>
+          <a href="#contact" onClick={(e) => { scrollToContact(e); close() }}>Contact</a>
+        </li>
       </ul>
     </nav>
   )

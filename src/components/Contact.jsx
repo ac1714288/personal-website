@@ -17,7 +17,7 @@ export default function Contact() {
             <div className="contact-items">
               <div className="contact-item">
                 <span className="contact-label">Email</span>
-                <a href="mailto:your@email.com">ac171@illiois.edu</a>
+                <a href="mailto:ac171@illiois.edu">ac171@illiois.edu</a>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Office</span>
@@ -28,7 +28,7 @@ export default function Contact() {
                 <div className="contact-socials">
                   <a href="https://github.com/ac1714288" target="_blank" rel="noreferrer">GitHub</a>
                   <a href="https://linkedin.com/in/adeniran-coker" target="_blank" rel="noreferrer">LinkedIn</a>
-                  <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
+                  <a href="https://scholar.google.com/citations?user=9d1ARFkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer">Google Scholar</a>
                 </div>
               </div>
             </div>

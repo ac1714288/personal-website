@@ -1,0 +1,116 @@
+.research-hero {
+  padding: 8rem 4rem 5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.research-hero-inner {
+  max-width: 700px;
+}
+
+.research-hero-title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 200;
+  color: #111;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.research-hero-bio {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 580px;
+  margin-bottom: 1rem;
+}
+
+.research-areas {
+  padding: 5rem 4rem;
+  background: #f5f5f5;
+}
+
+.research-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.research-area-card {
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.research-area-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #111;
+  margin-bottom: 0.85rem;
+}
+
+.research-area-desc {
+  font-size: 0.93rem;
+  line-height: 1.7;
+  color: #666;
+}
+
+.research-profiles {
+  padding: 5rem 4rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.research-profiles-list {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.research-profile-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #e8e8e8;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #111;
+  transition: opacity 0.15s;
+}
+
+.research-profile-link:first-child {
+  border-top: 1px solid #e8e8e8;
+}
+
+.research-profile-link:hover {
+  opacity: 0.5;
+}
+
+.research-profile-arrow {
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .research-hero {
+    padding: 7rem 1.75rem 3.5rem;
+  }
+
+  .research-areas {
+    padding: 4rem 1.75rem;
+  }
+
+  .research-areas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-profiles {
+    padding: 4rem 1.75rem;
+  }
+}

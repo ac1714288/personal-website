@@ -4,21 +4,20 @@ export default function About() {
   return (
     <section id="about" className="hero">
       <div className="hero-left">
-        <p className="hero-eyebrow">Researcher</p>
+        <p className="hero-eyebrow">About</p>
         <h1 className="hero-name">Adeniran<br />Coker</h1>
         <div className="hero-bio">
-          <p>I am a PhD candidate in Civil Engineering at the University of Illinois Urbana-Champaign and a Research Assistant at the Illinois Center for Transportation. I hold an M.Sc. in Civil Engineering from the University of New Hampshire.</p>
-          <p>My research applies life cycle assessment, cost analysis, and advanced data analytics to evaluate and optimize the environmental and economic performance of infrastructure systems. I combine quantitative modeling and machine learning to generate insights that support evidence-based infrastructure planning and investment decisions.</p>
-          <p>I am passionate about translating complex technical analysis into practical insights that inform policy, guide industry strategy, and improve infrastructure sustainability.</p>
-          <p>After completing my PhD, I aim to pursue a career in strategic and management consulting, helping organizations address complex challenges, improve operational efficiency, and build resilient, sustainable infrastructure systems.</p>
+          <p>I am a researcher, thinker, and builder, someone who believes that the best ideas live at the intersection of technical rigour and human curiosity.</p>
+          <p>By training I am a civil engineer. By disposition I am drawn to big questions — about systems, sustainability, and the decisions that shape the world we inhabit.</p>
+          <p>Outside the lab I am just as restless: reading widely, taking long road trips, exploring food and culture, and looking for the kinds of conversations that change how you see things.</p>
+          <p>I am building toward a career in strategic consulting where I can bring analytical depth to complex problems and help organisations make smarter, more resilient decisions.</p>
         </div>
         <div className="hero-actions">
           <a href="#contact" className="hero-btn-primary">Get in Touch</a>
-          <a href="#publications" className="hero-btn-outline">Publications</a>
         </div>
         <div className="hero-socials">
           <a href="https://github.com/ac1714288" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="mailto:adeniran.coker@illinois.edu">Email</a>
+          <a href="mailto:ac171@illiois.edu">Email</a>
           <a href="https://linkedin.com/in/adeniran-coker" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://scholar.google.com/citations?user=9d1ARFkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer">Scholar</a>
         </div>
