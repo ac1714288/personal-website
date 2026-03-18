@@ -1,15 +1,14 @@
 export const posts = [
   {
     slug: 'first-post',
-    title: 'Your First Blog Post Title',
-    date: 'March 1, 2026',
-    tag: 'Research',
-    summary: 'A brief introduction to what this post covers. Share your thoughts, research insights, or experiences here.',
-    content: `Your full post content goes here. You can write as much as you like.
-
-This is the second paragraph. Use this space to expand on your ideas, share findings, or tell a story.
-
-You can add as many paragraphs as you need.`,
+    title: 'You don’t need to fit the part',
+    date: 'February 26, 2026',
+    tag: 'Thoughts',
+    summary: 'In this post, I reflect on the life of Claude Shannon and what it teaches us about intellectual depth and playfulness.',
+    content: `One of the most fascinating figures I have encountered recently is Claude Shannon. He was a genius whose research laid the foundation for modern computing, the internet, and much of the digital world we rely on today. In many ways, he stood intellectually alongside minds like Einstein and Newton. Yet, most people have never heard his name.
+Why is that? I think part of the reason is that Claude Shannon did not “fit the part.” He had a whimsical side and seemed completely comfortable embracing it. He designed things like a robotic shoe for walking on water, a wearable device to improve his odds at the casino, and even a juggling machine. Rather than diminishing his brilliance, this playful curiosity made his intellect even more compelling to me.
+It challenges the quiet assumption that greatness must look a certain way. Why can I not be a professor and still be fun? Why must identity be shaped by the narrow projections of others? Too often, we inherit rigid ideas of what a serious life should look like and then confine ourselves within them.
+We end up living inside bubbles of expectation, forgetting how deeply our views are already biased. Shannon reminds me that intellectual depth and playfulness are not opposites. Maybe the fullest life is one that makes room for both`,
   },
   {
     slug: 'reflections-on-topic',

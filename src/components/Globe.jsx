@@ -7,10 +7,13 @@ export default function Globe() {
 
   useEffect(() => {
     let phi = 0
+    const isMobile = window.innerWidth <= 768
+    const size = isMobile ? 160 : 340
+    const dpr = Math.min(window.devicePixelRatio, 2)
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: Math.min(window.devicePixelRatio, 2),
-      width: 340 * Math.min(window.devicePixelRatio, 2),
-      height: 340 * Math.min(window.devicePixelRatio, 2),
+      devicePixelRatio: dpr,
+      width: size * dpr,
+      height: size * dpr,
       phi: 0,
       theta: 0.2,
       dark: 1,
