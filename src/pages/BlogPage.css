@@ -28,6 +28,15 @@
   transition: opacity 0.15s;
 }
 
+.blog-page-loading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 3rem 0;
+}
+
 .blog-page-item:first-child {
   border-top: 1px solid #e8e8e8;
 }
