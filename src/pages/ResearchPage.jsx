@@ -1,4 +1,3 @@
-import Publications from '../components/Publications'
 import Contact from '../components/Contact'
 import './ResearchPage.css'
 
@@ -38,8 +37,8 @@ export default function ResearchPage() {
           <p className="research-hero-bio">
             My research applies life cycle assessment, cost analysis, and advanced data analytics
             to evaluate and optimize the environmental and economic performance of infrastructure
-            systems. I combine quantitative modeling and machine learning to generate insights that
-            support evidence-based infrastructure planning and investment decisions.
+            systems. I aim to combine quantitative modeling and machine learning to generate insights that
+            support infrastructure planning and investment decisions.
           </p>
         </div>
       </section>
@@ -74,7 +73,7 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      <Publications />
+      {/* <Publications /> */}
       <Contact />
     </>
   )
