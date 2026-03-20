@@ -28,7 +28,7 @@ export default function Home() {
           <h2 className="section-title">About Me</h2>
           <p className="home-about-text">
             I am an aspiring speaker, writer, and consultant, currently pursuing a PhD in Civil Engineering at the University of Illinois Urbana-Champaign. My work focuses on developing innovative, data-driven solutions for sustainable infrastructure.
-            I am deeply passionate about what I do because it allows me to explore tge confluence of social impact and technological innovation where ideas can translate into real, measurable change.
+            I am deeply passionate about what I do because it allows me to explore how technology can drive social change.
             At my core, I believe in the potential of people and the power of continuous growth. I see life as being on a journey of learning, evolving, and becoming better intentionally.
             If any of this resonates with you, I invite you to join me on this journey.
           </p>
